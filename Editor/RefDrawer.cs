@@ -5,7 +5,7 @@ using Object = UnityEngine.Object;
 
 namespace InterfaceReferencer
 {
-    [CustomPropertyDrawer(typeof(Ref<>))]
+    [CustomPropertyDrawer(typeof(InterfaceReference<>))]
     public class RefDrawer : PropertyDrawer
     {
         public override float GetPropertyHeight(SerializedProperty property, GUIContent label)
@@ -66,7 +66,7 @@ namespace InterfaceReferencer
         }
 
         private bool Validate(Object obj)
-        {
+        { 
             return FieldType.GenericTypeArguments[0].IsInstanceOfType(obj);
         }
     }

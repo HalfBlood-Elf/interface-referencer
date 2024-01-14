@@ -5,7 +5,7 @@ using Object = UnityEngine.Object;
 namespace InterfaceReferencer
 {
     [Serializable]
-    public struct Ref<T> : ISerializationCallbackReceiver
+    public struct InterfaceReference<T> : ISerializationCallbackReceiver
         where T : class
     {
         [SerializeField] private Object _value;
@@ -39,42 +39,25 @@ namespace InterfaceReferencer
             Value = _value as T;
         }
 
-        public Ref(T value)
+        public InterfaceReference(T value)
         {
             this._value = value as Object;
             Value = value;
         }
 
-        private bool Validate(Object obj)
-        {
-            switch (obj)
-            {
-                case GameObject gameObject:
-                {
-                    if (!gameObject.TryGetComponent(out T component))
-                        return false;
-
-                    _value = component as Object;
-                    return true;
-                }
-                default:
-                    return obj is T;
-            }
-        }
-
-        public static implicit operator T(Ref<T> a)
+        public static implicit operator T(InterfaceReference<T> a)
         {
             return a.Value;
         }
 
-        public static implicit operator Ref<T>(Object obj)
+        public static implicit operator InterfaceReference<T>(Object obj)
         {
-            return new Ref<T> { Obj = obj };
+            return new InterfaceReference<T> { Obj = obj };
         }
 
-        public static implicit operator Ref<T>(T obj)
+        public static implicit operator InterfaceReference<T>(T obj)
         {
-            return new Ref<T>(obj);
+            return new InterfaceReference<T>(obj);
         }
     }
 }

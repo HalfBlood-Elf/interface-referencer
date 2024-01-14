@@ -1,10 +1,10 @@
 ﻿{
-  "name": "com.ol-popov.local-object-pooler",
-  "version": "1.0.6",
-  "displayName": "Local object pooler",
-  "description": "Small object pooler logic",
-  "changelogUrl": "https://github.com/HalfBlood-Elf/local-object-pooler/blob/main/Assets/PackageContent/CHANGELOG.md",
-  "licensesUrl": "https://github.com/HalfBlood-Elf/local-object-pooler/blob/main/Assets/PackageContent/LICENSE.md",
+  "name": "com.ol-popov.interface-referencer",
+  "version": "1.0.0",
+  "displayName": "Interface referencer",
+  "description": "Serializable container for interface reference. Time for proper polymorphism!",
+  "changelogUrl": "https://github.com/HalfBlood-Elf/interface-referencer/blob/main/Assets/PackageContent/CHANGELOG.md",
+  "licensesUrl": "https://github.com/HalfBlood-Elf/interface-referencer/blob/main/Assets/PackageContent/LICENSE.md",
   "keywords": [
     "object pooler",
     "pool"
