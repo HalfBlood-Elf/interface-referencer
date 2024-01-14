@@ -12,5 +12,12 @@
   "author": {
     "name": "Oleksii Popov",
     "email": "popov.alex.elf@gmail.com"
-  }
+  },
+  "samples":[
+    {
+      "displayName": "Simple example",
+      "description": "Contains simple example",
+      "path": "Samples~/SimpleReferences"
+    }
+  ]
 }
