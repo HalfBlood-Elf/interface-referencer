@@ -1,0 +1,16 @@
+{
+    "name": "com.ol-popov.interface-referencer.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:34f0b799a8efadf41a55cfdfc6efeb47"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
