@@ -1,0 +1,16 @@
+﻿{
+  "name": "com.ol-popov.local-object-pooler",
+  "version": "1.0.6",
+  "displayName": "Local object pooler",
+  "description": "Small object pooler logic",
+  "changelogUrl": "https://github.com/HalfBlood-Elf/local-object-pooler/blob/main/Assets/PackageContent/CHANGELOG.md",
+  "licensesUrl": "https://github.com/HalfBlood-Elf/local-object-pooler/blob/main/Assets/PackageContent/LICENSE.md",
+  "keywords": [
+    "object pooler",
+    "pool"
+  ],
+  "author": {
+    "name": "Oleksii Popov",
+    "email": "popov.alex.elf@gmail.com"
+  }
+}
