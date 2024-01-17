@@ -10,7 +10,7 @@ namespace InterfaceReferencer
     {
         public override float GetPropertyHeight(SerializedProperty property, GUIContent label)
         {
-            return 20;
+            return EditorGUIUtility.singleLineHeight + EditorGUIUtility.standardVerticalSpacing;
         }
 
         private bool _initialized;
