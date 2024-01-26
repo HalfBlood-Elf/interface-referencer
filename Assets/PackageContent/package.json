@@ -6,8 +6,8 @@
   "changelogUrl": "https://github.com/HalfBlood-Elf/interface-referencer/blob/main/Assets/PackageContent/CHANGELOG.md",
   "licensesUrl": "https://github.com/HalfBlood-Elf/interface-referencer/blob/main/Assets/PackageContent/LICENSE.md",
   "keywords": [
-    "object pooler",
-    "pool"
+    "serialized reference",
+    "interface reference"
   ],
   "author": {
     "name": "Oleksii Popov",
